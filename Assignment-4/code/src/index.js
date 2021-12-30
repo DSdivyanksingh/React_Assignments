@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './Postview';
+// import Postview from './Postview';
+import Landingpage from './landingpage';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -9,9 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Postview />
-  </React.StrictMode>,
+    <Landingpage />,
   document.getElementById('root')
 );
 
